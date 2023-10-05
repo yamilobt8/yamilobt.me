@@ -4,7 +4,7 @@ title: "Learny"
 date: "2023-07-30"
 cover:
         image: img/Learny.png
-description: "https://learny.pythonanywhere.com"
+url: "https://learny.pythonanywhere.com"
 aliases: ["migrate-from-jekyl"]
 ShowToc: true
 TocOpen: true
