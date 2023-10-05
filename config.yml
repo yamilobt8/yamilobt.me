@@ -1,0 +1,150 @@
+baseURL: https://yamilo.me/
+
+title: yamilo🧃
+theme: PaperMod
+
+defaultContentLanguage: ar-ma
+languages:
+  ar-ma:
+    languageCode: ar-ma
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    ar-ma:
+        languagedirection: rtl
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: الأرشيف
+                  url: archives
+                  weight: 5
+                - name: البحث
+                  url: search/
+                  weight: 10
+                - name: الوسوم
+                  url: tags/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "نحن نهدف إلى توفير معلومات شاملة وموثوقة حول ترتيب الدول والشركات في العالم، بالإضافة إلى تغطية واسعة للمواضيع المتعلقة بالاستثمار والاقتصاد."
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    # comments: false
+
+    profileMode:
+        enabled: true
+        title: "akiru" # optional default will be site title
+        subtitle: "Welcome to my world"
+        imageUrl: "https://styles.redditmedia.com/t5_y8c63/styles/communityIcon_movzuhpncgq41.png"
+        imageTitle: "akiru" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+          - name: Blog
+            url: blog
+          - name: الأرشيف
+            url: archives
+
+
+    socialIcons:
+        - name: instagram
+          url: "https://www.instagram.com/sofiamnouni/"
+        - name: youtube
+          url: "https://www.youtube.com/channel/UCNOZmjNaJLbegZqafFuK6NQ"
+        - name: discord
+          url: "https://discord.gg/tm4YffEC"
+          
+          
+#         label:
+#           text: "Home"
+#           icon: "img/astronaut.png"
+#           iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    assets:
+        disableHLJS: true
+    #     favicon: "/favicon.ico"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
