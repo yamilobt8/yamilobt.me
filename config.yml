@@ -65,7 +65,7 @@ params:
     profileMode:
         enabled: true
         title: "yamilobt8" # optional default will be site title
-        subtitle: "Gamer 🎮 | Programmer 👨‍💻 | Cybersecurity Student 🛡️"
+        subtitle: "🎮 Gamer  | 👨‍💻 Programmer  | 🛡️🔐 Cybersecurity Student "
         imageUrl: "https://styles.redditmedia.com/t5_y8c63/styles/communityIcon_movzuhpncgq41.png"
         imageTitle: "akiru" # optional
         imageWidth: 120 # custom size
