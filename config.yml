@@ -64,7 +64,7 @@ params:
 
     profileMode:
         enabled: true
-        title: "akiru" # optional default will be site title
+        title: "yamilobt8" # optional default will be site title
         subtitle: "Welcome to my world"
         imageUrl: "https://styles.redditmedia.com/t5_y8c63/styles/communityIcon_movzuhpncgq41.png"
         imageTitle: "akiru" # optional
