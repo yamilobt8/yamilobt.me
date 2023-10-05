@@ -88,7 +88,8 @@ params:
           url: "https://www.linkedin.com/in/khalid-azaanoun-a0585425b/"
         - name: tiktok
           url: "https://www.tiktok.com/yamilobt8"
-          
+        - name: learny
+          url: "https://learny.pythonanywhere.com"
 #         label:
 #           text: "Home"
 #           icon: "img/astronaut.png"
