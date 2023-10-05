@@ -86,8 +86,8 @@ params:
           url: "https://discord.gg/tm4YffEC"
         - name: linkedin
           url: "https://www.linkedin.com/in/khalid-azaanoun-a0585425b/"
-        - name: tiktok
-          url: "https://www.tiktok.com/yamilobt8"
+        - name: github
+          url: "https://github.com/yamilobt8"
         - name: learny
           url: "https://learny.pythonanywhere.com"
 #         label:
